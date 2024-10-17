@@ -13,7 +13,7 @@ const Form = () => {
         const data = { name, email, message };
 
         try {
-            const response = await axios.post('https://your-backend-url.onrender.com/api/data', data);
+            const response = await axios.post('https://my-backend-5-ybo3.onrender.com/api/data', data);
 
             console.log('Data saved:', response.data);
             // Optionally reset the form fields
